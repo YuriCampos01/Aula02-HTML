@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 7</title>
+    <!-- Crie o arquivo HTML necessário para exibir o formulário abaixo:
+ -->
+</head>
+<body>
+    <h1>Escola Virtual</h1>
+    <br>
+    <h3>Formulário de Pré-Matrícula</h3>
+
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="nomeAluno">Nome do aluno:</label>
+        <input type="text" id="nomeAluno"><br><br>
+        <label for="dataNascimento">Nascimento:</label>
+        <input type="date" name="dataNascimento" id="dataNascimento" min="1950-01-01" max="2024-01-01"><br><br>
+        <label for="nomePai">Nome do Pai:</label>
+        <input type="text" id="nomePai"><br><br>
+        <label for="nomeMae">Nome da Mãe:</label>
+        <input type="text" id="nomeAluno"><br><br>
+        <label for="telefone">Telefone:</label>
+        <input type="number" id="telefone">
+    </fieldset>
+
+    <fieldset>
+        <legend>Informações da Matrícula</legend>
+        <label for="serie">Série</label>
+        <select name="series" id="serie">
+            <option value="PC">Pré-escola</option>
+            <option value="SI">Séries iniciais</option>
+            <option value="F">Fundamental</option>
+            <option value="M">Médio</option>
+            <option value="TC">Técnico</option>
+            <option value="S">Superior</option>
+        </select>
+        <P>Turno:</P>
+        <label for="manha">Manhã</label>
+        <input type="radio" id="manha">
+        <label for="tarde">Tarde</label>
+        <input type="radio" id="tarde">
+
+        <p>Atividades Extracurriculares:</p> <input type="checkbox" id="informatica">
+        <label for="informatica">Informática</label><br> 
+        <input type="checkbox" id="musica"><label for="musica">Música</label><br> 
+        <input type="checkbox" id="balet"><label for="balet">Balet</label><br>
+        <input type="checkbox" id="pintura"><label for="pintura">Pintura</label><br>
+        <input type="checkbox" id="judo"><label for="judo">Judô</label><br>
+        <input type="checkbox" id="futebol">
+        <label for="futebol">Futebol</label>
+    </fieldset>
+    <input type="submit" value="Enviar Formulário">
+    <input type="reset" value="Limpar Campos"><br><br>
+
+
+    <footer>
+        ✅ Yuri Campos
+    </footer>
+</body>
+</html>
